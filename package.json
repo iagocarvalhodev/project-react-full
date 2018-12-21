@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Backend application in curse react and react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iagocarvalhodev/project-react-full.git"
+  },
+  "keywords": [
+    "react",
+    "reactnative",
+    "express"
+  ],
+  "author": "Iago Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iagocarvalhodev/project-react-full/issues"
+  },
+  "homepage": "https://github.com/iagocarvalhodev/project-react-full#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
