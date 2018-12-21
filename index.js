@@ -6,6 +6,9 @@ const requireDir = require('require-dir');
 // inicindo o app
 const app = express();
 
+// permitir envio de request no formato json
+app.use(express.json());
+
 // iniciando o banco de dados mongodb
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true });
 
